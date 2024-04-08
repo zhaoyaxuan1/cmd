@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Form</title>
+	 <link rel="stylesheet" href="Form.css">
+</head>
+<body>
+    <div class="from">
+        <img class="bgc" src="imgs14.png" alt="">
+        <div class="submit">
+            <span class="form_title">自由国度登入口</span>
+            <div class="form_input">
+                <span>姓名：</span>
+                <input class="inputs" type="text" value="风渡">
+            </div>
+            <div class="form_input">
+                <span>年龄:</span>
+                <input class="inputs" type="text" value="18">
+            </div>
+            <div class="form_input">
+                <span>爱好：</span>
+                <input class="inputs" type="text" value="追逐自由">
+            </div>
+            <div class="form_input">
+                <span>食物系：</span>
+                <input class="inputs" type="text" value="酸甜系">
+            </div>
+            <div class="form_input">
+                <span>颜色：</span>
+                <input class="inputs" type="text" value="绿色">
+            </div>
+            <div class="btn_submit">
+                <a href="Free.html">
+                    <button class="btn">提交</button></a>
+                <a href="About.html" class="back"><button class="home_href">首页</button></a>
+            </div>
+        </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="music.mp3" type="audio/MP3">
+        </audio>
+        <img class="music_img" src="imgs11.png" alt="">
+    </div>
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+</html>
