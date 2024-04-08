@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我在风里</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	 <div class="home">
+        <div class="content">
+            <div class="stars"></div>
+            <img class="bgc" src="imgs1.png" width="100%" alt="">
+            <h3 class="title">欢迎来到自由国度</h3>
+            <h3 class="titles">今天也要加油鸭</h3>
+            <img class="icon" src="imgs2.jpg" alt="">
+            <div class='ribbon'>
+                <a href='Home.html'><span>Home</span></a>
+                <a href='About.html'><span>About</span></a>
+                <a href='Form.html'><span>Form</span></a>
+
+            </div>
+        </div>
+        <div class="icons">
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="imgs3.png" alt="">
+                <span>答案在时间里 自由在风里</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="imgs4.png" alt="">
+                <span>找不到答案就去看看这个世界</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="imgs5.png" alt="">
+                <span>我生性自由散漫 不喜拘束 我的全部野心就是自由一生</span>
+            </div>
+            <div class="icons_items">
+                <img class="icons_items_imgs" src="imgs6.png" alt="">
+                <span>山前山后都有风景 有风无风都很自由</span>
+            </div>
+        </div>
+        <div class="introduce">
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="imgs7.png" alt="">
+                <span class="introduce_item_title">你走吧，不舍还你，自由还你，最甜美的关于你的梦还你，六月的傍晚还你，第一次拥抱和最后一次亲吻还你，肩膀还你，返程机票还你，平静还你，两个人的晚餐还你，钥匙还你，家还你，一意孤行和关于未来的所有希翼，全都还你。</span>
+
+            </div>
+            <div class="introduce_item">
+
+                <span class="introduce_item_titles">我要看江川河流和日照金山，我要真正的爱与自由
+                我并不期待人生可以过得很顺利，但我希望碰到人生难关的时候，自己可以是它的对手。
+
+               自由洒脱的人一定都很坚强，一个人若想做到自由洒脱，就要有勇气面对生活的无常</span>
+                <img class="introduce_item_img" src="imgs8.png" alt="">
+            </div>
+            <div class="introduce_item">
+                <img class="introduce_item_img" src="imgs9.png" alt="">
+                <span class="introduce_item_title">潮起潮落，人聚人散，这就是定律。
+                人生是一条只能往前的河流，那让你，让我一直奔流不息吧。
+
+               我生性自由散漫，不喜欢约束，我的全部野心就是自由一生。</span>
+            </div>
+            <div class="introduce_item">
+                <span class="introduce_item_titles">选一种姿态，让自己活得无可替代，没有所谓的运气，只有绝对的努力！不能十全十美，但可以独一无二。
+               做一个特别简单的人，好相处就处，不好相处就不处。不必对每个人好，他们又不给你打钱。
+               喜欢就百分之百的投入和温柔，离开的时候就摆摆手，大步向前走，那个爱的洒脱又利落的你，不知道有多酷。</span>
+                <img class="introduce_item_img" src="imgs10.png" alt="">
+            </div>
+        </div>
+        <audio autoplay="autoplay" id="audio" loop="loop">
+                <source src="music.mp3" type="audio/MP3">
+        </audio>
+        <img class="music_img" src="imgs11.png" alt="">
+    </div>
+
+</body>
+<script>
+    let mucics = document.getElementById('audio')
+    document.body.addEventListener('mousemove', function() {
+        setTimeout(() => {
+            mucics.play();
+        }, 2000);
+    }, false);
+</script>
+
+</html>
